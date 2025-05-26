@@ -3,7 +3,6 @@ var cors = require("cors");
 var serverless = require('serverless-http');
 var app = express();
 var asignaturaroutes = require("../../backend/routes/asignaturaroutes.js");
-
 app.use(express.json());
 app.use(cors());
 
